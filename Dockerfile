@@ -1,4 +1,4 @@
-ARG OPENSTUDIO_VERSION='3.2.1'
+ARG OPENSTUDIO_VERSION='3.0.1'
 FROM canmet/docker-openstudio:$OPENSTUDIO_VERSION
 # Need to remind Docker of the Openstudio version..https://docs.docker.com/engine/reference/builder/
 ARG OPENSTUDIO_VERSION
